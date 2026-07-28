@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1345 400" role="img" aria-label="Make-Algo — Consultoría especializada en IA">
+  <title>Make-Algo</title>
+  <defs>
+    <linearGradient id="ma-brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E77C4"/>
+      <stop offset="0.55" stop-color="#2AA6A6"/>
+      <stop offset="1" stop-color="#43C08A"/>
+    </linearGradient>
+    <linearGradient id="ma-word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1E77C4"/>
+      <stop offset="1" stop-color="#43C08A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== Emblem ===== -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Hexagon frame -->
+    <path d="M200 40 L338 130 L338 290 L200 380 L62 290 L62 130 Z"
+          stroke="url(#ma-brand)" stroke-width="15"/>
+    <!-- Circuit node terminals on the frame -->
+    <g fill="url(#ma-brand)" stroke="none">
+      <circle cx="62" cy="130" r="16"/>
+      <circle cx="338" cy="290" r="16"/>
+    </g>
+    <!-- short circuit stubs into the nodes -->
+    <path d="M62 130 L110 130" stroke="url(#ma-brand)" stroke-width="12"/>
+    <path d="M338 290 L290 290" stroke="url(#ma-brand)" stroke-width="12"/>
+
+    <!-- Anchor -->
+    <g stroke="#12446E">
+      <circle cx="200" cy="112" r="18" stroke-width="12"/>
+      <line x1="200" y1="130" x2="200" y2="300" stroke-width="14"/>
+      <line x1="152" y1="158" x2="248" y2="158" stroke-width="13"/>
+      <path d="M132 250 C136 312 200 322 200 322 C200 322 264 312 268 250" stroke-width="14"/>
+      <path d="M132 250 L118 236 M132 250 L150 236" stroke-width="11"/>
+      <path d="M268 250 L282 236 M268 250 L250 236" stroke-width="11"/>
+    </g>
+
+    <!-- Upward growth arrow (overlaps the anchor) -->
+    <g stroke="url(#ma-brand)">
+      <line x1="120" y1="300" x2="292" y2="108" stroke-width="15"/>
+      <path d="M292 108 L246 116 M292 108 L286 158" stroke-width="15"/>
+    </g>
+  </g>
+
+  <!-- ===== Wordmark ===== -->
+  <text x="410" y="232" font-family="Montserrat, 'Segoe UI', Arial, sans-serif" font-weight="800" font-size="150" letter-spacing="-2">
+    <tspan fill="#12446E">MAKE-</tspan><tspan fill="url(#ma-word)">ALGO</tspan>
+  </text>
+
+  <!-- ===== Tagline ===== -->
+  <text x="414" y="300" font-family="Montserrat, 'Segoe UI', Arial, sans-serif" font-weight="600" font-size="40" letter-spacing="5.2" fill="#565C63">CONSULTORÍA ESPECIALIZADA EN IA</text>
+</svg>
